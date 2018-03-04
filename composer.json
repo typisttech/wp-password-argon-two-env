@@ -1,0 +1,53 @@
+{
+    "name": "typisttech/wp-password-argon-two-env",
+    "description": "Convert environment variables to WP Password Argon Two required constants.",
+    "keywords": [
+        "typist tech",
+        "wordpress",
+        "wp",
+        "password",
+        "argon2",
+        "argon2i",
+        "sha512",
+        "hashing",
+        "hmac",
+        "env"
+    ],
+    "homepage": "https://github.com/TypistTech/wp-password-argon-two-env",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Typist Tech",
+            "email": "wp-password-argon-two-env@typist.tech",
+            "homepage": "https://typist.tech/"
+        },
+        {
+            "name": "Tang Rufus",
+            "email": "tangrufus@gmail.com",
+            "homepage": "https://typist.tech/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "wp-password-argon-two-env@typist.tech",
+        "issues": "https://github.com/TypistTech/wp-password-argon-two-env/issues",
+        "source": "https://github.com/TypistTech/wp-password-argon-two-env"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "oscarotero/env": "^1.1",
+        "typisttech/wp-password-argon-two": "^0.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TypistTech\\WPPasswordArgonTwo\\Env\\": "src/"
+        }
+    },
+    "scripts": {
+        "pre-tag": [
+            "doctoc README.md",
+            "github_changelog_generator --no-verbose"
+        ]
+    }
+}
