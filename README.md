@@ -12,6 +12,26 @@ Convert environment variables to [WP Password Argon Two](https://github.com/Typi
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+- [Goal](#goal)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Trellis](#trellis)
+- [Frequently Asked Questions](#frequently-asked-questions)
+  - [Why I got `InsecureConfigException` (Pepper should not be empty)?](#why-i-got-insecureconfigexception-pepper-should-not-be-empty)
+  - [Does it work when WP Password Argon Two installed as a must-use plugin?](#does-it-work-when-wp-password-argon-two-installed-as-a-must-use-plugin)
+  - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
+- [Support!](#support)
+  - [Donate](#donate)
+  - [Why don't you hire me?](#why-dont-you-hire-me)
+  - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
+- [Developing](#developing)
+- [Feedback](#feedback)
+- [Change Log](#change-log)
+- [Security](#security)
+- [Credits](#credits)
+- [License](#license)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Goal
@@ -63,14 +83,14 @@ vault_wordpress_sites:
 
 # group_vars/<env>/wordpress_sites.yml
 wordpress_sites:
-  example_com:
+  example.com:
     env:
       wp_password_argon_two_option_memory_cost: 131072 # 128 Mb
       wp_password_argon_two_option_time_cost: 4
       wp_password_argon_two_option_threads: 3
 ```
 
-Encrypting the `vault.yml` files is important! Learn more on [Trellis docs](https://roots.io/trellis/docs/vault/).
+Encrypting `vault.yml` files is important! Learn more on [Trellis docs](https://roots.io/trellis/docs/vault/).
 
 ## Frequently Asked Questions
 
@@ -87,7 +107,7 @@ No.
 ### It looks awesome. Where can I find some more goodies like this?
 
 * Articles on Typist Tech's [blog](https://typist.tech)
-* [Tang Rufus' WordPress plugins]](https://profiles.wordpress.org/tangrufus#content-plugins) on wp.org
+* [Tang Rufus' WordPress plugins](https://profiles.wordpress.org/tangrufus#content-plugins) on wp.org
 * More projects on [Typist Tech's GitHub profile](https://github.com/TypistTech)
 * Stay tuned on [Typist Tech's newsletter](https://typist.tech/go/newsletter)
 * Follow [Tang Rufus' Twitter account](https://twitter.com/TangRufus)
