@@ -128,7 +128,7 @@ Contact: [Tang Rufus](mailto:tangrufus@gmail.com)
 
 ## Developing
 
-To setup a developer workable version you should run these commands:
+To set up a developer workable version you should run these commands:
 
 ```bash
 $ composer create-project --keep-vcs --no-install typisttech/wp-password-argon-two-env:dev-master
