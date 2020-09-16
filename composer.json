@@ -43,11 +43,5 @@
         "psr-4": {
             "TypistTech\\WPPasswordArgonTwo\\Env\\": "src/"
         }
-    },
-    "scripts": {
-        "pre-tag": [
-            "doctoc README.md",
-            "github_changelog_generator --no-verbose"
-        ]
     }
 }

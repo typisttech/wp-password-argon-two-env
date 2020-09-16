@@ -142,10 +142,6 @@ $ composer install
 Please submit an [issue](https://github.com/TypistTech/wp-password-argon-two-env/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
 
-## Change Log
-
-Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed recently.
-
 ## Security
 
 If you discover any security related issues, please email [wp-password-argon-two-env@typist.tech](mailto:wp-password-argon-two-env@typist.tech) instead of using the issue tracker.
