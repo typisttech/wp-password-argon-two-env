@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TypistTech\WPPasswordArgonTwo\Env;
 
-use Env;
+use Env\Env;
 
 class Converter
 {
