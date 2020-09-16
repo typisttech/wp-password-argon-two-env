@@ -35,19 +35,13 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2",
-        "oscarotero/env": "^1.1",
+        "php": "^7.4",
+        "oscarotero/env": "^2.1",
         "typisttech/wp-password-argon-two": "^0.2.0"
     },
     "autoload": {
         "psr-4": {
             "TypistTech\\WPPasswordArgonTwo\\Env\\": "src/"
         }
-    },
-    "scripts": {
-        "pre-tag": [
-            "doctoc README.md",
-            "github_changelog_generator --no-verbose"
-        ]
     }
 }

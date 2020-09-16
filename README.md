@@ -128,7 +128,7 @@ Contact: [Tang Rufus](mailto:tangrufus@gmail.com)
 
 ## Developing
 
-To setup a developer workable version you should run these commands:
+To set up a developer workable version you should run these commands:
 
 ```bash
 $ composer create-project --keep-vcs --no-install typisttech/wp-password-argon-two-env:dev-master
@@ -141,10 +141,6 @@ $ composer install
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
 Please submit an [issue](https://github.com/TypistTech/wp-password-argon-two-env/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
-
-## Change Log
-
-Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed recently.
 
 ## Security
 
