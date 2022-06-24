@@ -35,7 +35,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.4",
+        "php": "^7.2 || ^8.0",
         "oscarotero/env": "^2.1",
         "typisttech/wp-password-argon-two": "^0.2.0"
     },
